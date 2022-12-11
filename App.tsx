@@ -1,6 +1,11 @@
-import React from 'react';
-import LoginScreen from './src/screens/LoginScreen';
+import {NavigationContainer} from '@react-navigation/native';
+import * as React from 'react';
+import {AppStack} from './src/Routes';
 
 export default function App() {
-  return <LoginScreen />;
+  return (
+    <NavigationContainer>
+      <AppStack />
+    </NavigationContainer>
+  );
 }

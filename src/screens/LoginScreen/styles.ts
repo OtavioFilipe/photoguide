@@ -1,27 +1,27 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  flex: 1;
+  flex: 3;
+  flex-direction: column;
 `;
 
 export const LogoImage = styled.Image`
-  position: absolute;
   justify-content: center;
   align-self: center;
-  margin-top: 300px;
 `;
 
-export const ContentContainer = styled.View`
-  width: 275px;
-  height: 48px;
-  position: absolute;
-  margin-top: 360px;
-  margin-left: 70px;
+export const InfoContainer = styled.View`
+  flex: 3;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-horizontal: 50px;
 `;
 
 export const ButtonContainer = styled.View`
-  position: absolute;
+  flex: 0.7;
   flex-direction: column;
-  margin-top: 610px;
+  justify-content: space-around;
   padding-horizontal: 34px;
 `;
